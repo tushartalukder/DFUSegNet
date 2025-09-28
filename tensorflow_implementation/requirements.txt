@@ -1,0 +1,13 @@
+tensorflow==2.8.4
+tensorflow-addons
+numpy==1.26.4
+pandas
+scikit-learn
+opencv-python
+scipy
+natsort
+albumentations
+tf-clahe
+Pillow
+matplotlib
+tf_clahe
