@@ -41,12 +41,12 @@ To start the training process from scratch, run the train.py script from the pro
 The console will display the training progress for each epoch. The best-performing model will be saved to the directory specified in your configuration. 
 
 ### ▶️ Evaluate a Model
-To evaluate a pre-trained .h5 model, ensure the EVAL_MODEL_PATH in src/config.py is correctly set. Then, run the evaluation script:python -m src.evaluate 
-
+To evaluate a pre-trained .h5 model, ensure the ```EVAL_MODEL_PATH``` in ```src/config.py``` is correctly set. Then, run the evaluation script:
+```python -m src.evaluate ```
 This will load the test dataset and compute a comprehensive set of performance metrics.
 
 ### 📂 Project Structure
-The project is organized into a clean and modular structure to separate concerns.
+The project is organized into a clean and modular structure.
 ```wound-segmentation-project/
 ├── src/ 
 │ ├── config.py # Main configuration for paths and hyperparameters 
