@@ -1,11 +1,17 @@
 ### DFUSegNet: Boundary-aware hierarchical attentive fusion network with adaptive preprocessing for diabetic foot ulcer segmentation
 A robust deep learning pipeline for the precise segmentation of Diabetic Foot Ulcers (DFUs) from clinical images. This project implements a sophisticated multi-scale, attention-guided fusion network to achieve state-of-the-art performance. Paper link: https://www.sciencedirect.com/science/article/pii/S0950705125013632  or https://shorturl.at/N2DVQ
+<img width="1064" height="813" alt="image" src="https://github.com/user-attachments/assets/68e8c92b-5915-45a6-8925-a518ac39edd1" />
+<img width="815" height="629" alt="image" src="https://github.com/user-attachments/assets/408f71a9-3fc0-45cf-9774-0cf2fda09130" />
+<img width="682" height="360" alt="image" src="https://github.com/user-attachments/assets/b9fc104a-7d82-47f9-8e40-7c7704b5d953" />
+
 
 ## 🎯Highlights
 - Multiscale Feature Fusion: Utilizes a novel approach with multiscale feature fusion in the encoder and a dual-mode attention mechanism in the decoder.
 - Adaptive Preprocessing: Integrates a learnable image preprocessing module that adaptively enhances input quality and optimizes features for segmentation.
 - Enhanced Feature Representation: Employs a boundary enhancer and multi-resolution positional attention to sharpen features and capture critical spatial context.
 - State-of-the-Art Performance: Achieves superior performance and reliability in diabetic foot ulcer segmentation across multiple benchmark datasets.
+
+
 
 ## 📄 Abstract 
 Diabetic Foot Ulcers (DFUs) are a severe complication of diabetes, often leading to lower limb amputation and increased patient morbidity. Accurate segmentation of DFUs is essential for effective wound assessment, treatment planning, and healing monitoring. This paper introduces a novel deep learning framework, DFUSegNet, for accurate segmentation of DFUs and other chronic wounds. The proposed architecture seamlessly integrates a learnable image preprocessor (LIP) to enhance input quality and a hierarchical encoder for capturing multiscale and multiresolution wound features. A boundary enhancer (BE) sharpens ulcer edges, while the multiresolution positional attention (MPA) module emphasizes critical spatial details. Extracted features by the encoder are refined through a local-global feature aggregation (LGFA) module before being processed by a dual-mode attention-guided hierarchical decoder, ensuring precise and robust segmentation. Extensive quantitative and qualitative evaluations on the DFUC, FUSeg, and AZH Wound datasets showcase the superior performance of DFUSegNet, achieving state-of-the-art IoU/F1-scores (in %) of 60.06/70.78 on DFUC, 79.06/85.76 on FUSeg, and 81.21/87.28 on AZH. Interpretability analysis further highlights the effectiveness of our MPA, BE modules, and dual-mode attention-guided decoder in progressively extracting intricate ulcer features. Despite encountering some anomalies in the datasets, DFUSegNet demonstrates immense potential for integration into knowledge-based systems within clinical workflows and telemedicine, enabling automated, high-precision DFU segmentation to support early diagnosis and effective wound management. While promising results validate its effectiveness, successful clinical deployment will require large, accurately annotated DFU datasets, laying the foundation for future advancements in automated DFU segmentation.
